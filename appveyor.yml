@@ -12,18 +12,17 @@ install:
   - set PATH=%APPDATA%\npm;%PATH%
   - npm install
   - npm install -g yarn gulp
-
-build: off
-version: '{build}'
-shallow_clone: true
-clone_depth: 1
-
-before_script:
   - yarn install
   - yarn start
   - yarn run lib
   - yarn run webdriver
   - yarn run prod
+
+
+build: off
+version: '{build}'
+shallow_clone: true
+clone_depth: 1
 
 test_script:
   - node --version
