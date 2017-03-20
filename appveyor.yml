@@ -1,0 +1,36 @@
+branches:
+  only:
+  - fix_e2e
+
+environment:
+  nodejs_version: '7'
+
+install:
+  - choco install googlechrome
+  - ps: Install-Product node $env:nodejs_version
+  - set CI=true
+  - set PATH=%APPDATA%\npm;%PATH%
+  - npm install
+  - npm install -g yarn gulp
+
+build: off
+version: '{build}'
+shallow_clone: true
+clone_depth: 1
+
+before_script:
+  - yarn install
+  - yarn start
+  - yarn run lib
+  - yarn run webdriver
+  - yarn run prod
+
+test_script:
+  - node --version
+  - npm --version
+  - yarn test
+  - yarn run e2e
+
+artifacts:
+  - path: reports
+    name: Reports
