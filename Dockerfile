@@ -2,7 +2,6 @@ FROM buildpack-deps:jessie
 
 ENV HOME /Frontend-Starter-Kit
 ENV NODE 7
-ENV DEBIAN_FRONTEND noninteractive
 ENV PATH $HOME/.yarn/bin:$PATH
 
 WORKDIR ${HOME}
