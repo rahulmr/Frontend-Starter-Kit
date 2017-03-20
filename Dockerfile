@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie
+FROM ubuntu/trusty
 
 ENV HOME /Frontend-Starter-Kit
 ENV NODE 7
