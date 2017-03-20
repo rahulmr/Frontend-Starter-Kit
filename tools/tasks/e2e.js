@@ -7,7 +7,7 @@ import { Protractor } from '../utils';
 
 gulp.task('webdriver', webdriver_update);
 
-gulp.task('e2e', (done) => {
+gulp.task('e2e', ['webdriver'], (done) => {
   new Protractor()
     .server(TEST_PORT, DIST_ROOT)
     .then((server) => {
