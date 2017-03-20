@@ -11,10 +11,13 @@ ADD . $HOME
 RUN curl -sL https://deb.nodesource.com/setup_$NODE.x | bash - && \
     curl -o- -L https://yarnpkg.com/install.sh | bash && \
     apt-get update && \
-    apt-get install -y nodejs && \
-    rm -rf /var/lib/apt/lists/*
+    apt-get install -y nodejs
 
 RUN java -version
+RUN node -v
+RUN npm -v
+RUN npm i -g yarn gulp
+RUN rm -rf /var/lib/apt/lists/*
 RUN yarn
 
 EXPOSE 3000 9876
