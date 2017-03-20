@@ -3,7 +3,9 @@ dist: trusty
 sudo: required
 
 language: node_js
-node_js: "6"
+node_js:
+  - "7"
+  - "6"
 cache: yarn
 jdk: oraclejdk8
 branches:
