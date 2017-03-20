@@ -6,7 +6,7 @@ node_js: stable
 cache: yarn
 
 branches:
-  only: master
+  only: fix_e2e
 
 env:
   matrix:
