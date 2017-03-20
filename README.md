@@ -2,10 +2,10 @@
 
 :icecream: A boilerplate for :star2: HTML5 :star2:, Material, Firebase, Gulp, Rollup, Babel, PostHTML, and PostCSS.
 
-[![Build Status](https://travis-ci.org/Shyam-Chen/Frontend-Starter-Kit.svg?branch=master)](https://travis-ci.org/Shyam-Chen/Frontend-Starter-Kit)
+[![Build Status](https://travis-ci.org/rahulmr/Frontend-Starter-Kit.svg?branch=master)](https://travis-ci.org/rahulmr/Frontend-Starter-Kit)
  //
-[![dependencies Status](https://david-dm.org/Shyam-Chen/Frontend-Starter-Kit/status.svg)](https://david-dm.org/Shyam-Chen/Frontend-Starter-Kit)
-[![devDependencies Status](https://david-dm.org/Shyam-Chen/Frontend-Starter-Kit/dev-status.svg)](https://david-dm.org/Shyam-Chen/Frontend-Starter-Kit?type=dev)
+[![dependencies Status](https://david-dm.org/rahulmr/Frontend-Starter-Kit/status.svg)](https://david-dm.org/rahulmr/Frontend-Starter-Kit)
+[![devDependencies Status](https://david-dm.org/rahulmr/Frontend-Starter-Kit/dev-status.svg)](https://david-dm.org/rahulmr/Frontend-Starter-Kit?type=dev)
 
 [Live Demo](https://frontend-starter-kit.firebaseapp.com/)
 
@@ -57,7 +57,7 @@ This seed repository provides the following features:
 1) Clone this Boilerplate
 
 ```bash
-$ git clone --depth 1 https://github.com/Shyam-Chen/Frontend-Starter-Kit.git <PROJECT_NAME>
+$ git clone --depth 1 https://github.com/rahulmr/Frontend-Starter-Kit.git <PROJECT_NAME>
 $ cd <PROJECT_NAME>
 ```
 
