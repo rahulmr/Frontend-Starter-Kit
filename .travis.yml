@@ -1,10 +1,11 @@
 os: linux
+dist: trusty
 sudo: false
 
 language: node_js
 node_js: stable
 cache: yarn
-
+jdk: oraclejdk8
 branches:
   only: fix_e2e
 
