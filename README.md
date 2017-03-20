@@ -2,7 +2,7 @@
 
 :icecream: A boilerplate for :star2: HTML5 :star2:, Material, Firebase, Gulp, Rollup, Babel, PostHTML, and PostCSS.
 
-[![Build Status](https://travis-ci.org/rahulmr/Frontend-Starter-Kit.svg?branch=master)](https://travis-ci.org/rahulmr/Frontend-Starter-Kit)
+[![Build Status](https://travis-ci.org/rahulmr/Frontend-Starter-Kit.svg?branch=fix_e2e)](https://travis-ci.org/rahulmr/Frontend-Starter-Kit)
  //
 [![dependencies Status](https://david-dm.org/rahulmr/Frontend-Starter-Kit/status.svg)](https://david-dm.org/rahulmr/Frontend-Starter-Kit)
 [![devDependencies Status](https://david-dm.org/rahulmr/Frontend-Starter-Kit/dev-status.svg)](https://david-dm.org/rahulmr/Frontend-Starter-Kit?type=dev)
