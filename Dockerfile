@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:xenial
 
 ENV HOME /Frontend-Starter-Kit
 ENV NODE 7
